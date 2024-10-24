@@ -233,7 +233,7 @@ const Dashboard: Component = () => {
                         <div class="legend">
                             <div class="legend-left">
                                 {movieGenres.slice(0, 2).map(genre => (
-                                    <div class="legend-item" key={genre.genre}>
+                                    <div class="legend-item">
                                         <div class={`legend-color legend-color-${genre.genre.toLowerCase()}`}></div>
                                         <span>{genre.genre}</span>
                                     </div>
@@ -242,7 +242,7 @@ const Dashboard: Component = () => {
 
                             <div class="legend-right">
                                 {movieGenres.slice(2).map(genre => (
-                                    <div class="legend-item" key={genre.genre}>
+                                    <div class="legend-item">
                                         <div class={`legend-color legend-color-${genre.genre.toLowerCase()}`}></div>
                                         <span>{genre.genre}</span>
                                     </div>
