@@ -1,0 +1,212 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #141414;
+    color: #fff;
+}
+
+.dashboard {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.dashboard-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #333;
+}
+
+.header-left h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+.header-left p {
+    margin: 0;
+    font-size: 14px;
+    color: #aaa;
+}
+
+.header-right {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.date-range {
+    background-color: #333;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.user-profile {
+    background-color: #444;
+    padding: 10px;
+    border-radius: 50%;
+    text-align: center;
+}
+
+.stats-section {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px; /* Ubah jarak antar kartu lebih dekat */
+    margin: 20px 0;
+}
+
+.stat-card1 {
+    background-color: #222;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    width: 290px; /* Atur lebar maksimum */
+    height: 100px;
+    margin: 0 auto; /* Pusatkan kartu */
+    cursor: pointer; /* Mengubah kursor saat mengarahkan mouse */
+    margin-left: 0px;
+}
+
+.stat-card2 {
+    background-color: #222;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    width: 290px; /* Atur lebar maksimum */
+    height: 100px;
+    margin: 0 auto; /* Pusatkan kartu */
+    cursor: pointer; /* Mengubah kursor saat mengarahkan mouse */
+    margin-left: -155px;
+}
+
+.stat-card3 {
+    background-color: #222;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    width: 290px; /* Atur lebar maksimum */
+    height: 100px;
+    margin: 0 auto; /* Pusatkan kartu */
+    cursor: pointer; /* Mengubah kursor saat mengarahkan mouse */
+    margin-left: -315px;
+}
+
+.charts-section {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 20px;
+}
+
+.chart-card {
+    background-color: #222;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.genre {
+    margin-top: -120px;
+}
+
+.chart-container {
+    margin-top: 20px;
+}
+
+.table-section {
+    margin-top: 20px;
+}
+
+.data-table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #222;
+}
+
+.data-table th,
+.data-table td {
+    padding: 10px;
+    border: 1px solid #333;
+    text-align: left;
+}
+
+.popular-films {
+    margin-top: 20px;
+    background-color: #222;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.popular-films h3 {
+    margin: 0 0 10px;
+}
+
+.popular-films ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.popular-films li {
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #333;
+    border-radius: 5px;
+}
+
+.legend-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.legend-left,
+.legend-right {
+    display: flex;
+    flex-direction: column;
+    gap: 10px; /* Jarak antar item */
+}
+
+.legend {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px; /* Jarak antar kolom kiri dan kanan */
+}
+
+.legend-color {
+    width: 15px;
+    height: 15px;
+    display: inline-block;
+    margin-right: 8px;
+    border-radius: 50%; 
+}
+
+.legend-color-action {
+    background-color: #455EFF; 
+}
+
+.legend-color-comedy {
+    background-color: #581E9D; 
+}
+
+.legend-color-drama {
+    background-color: #878EFE; 
+}
+
+.legend-color-horror {
+    background-color: #7159FE; 
+}
+
+.legend-color-documentary {
+    background-color: #0E00A2; 
+}
+
+.date-range {
+    display: flex;
+    align-items: center; /* Align items vertically in the center */
+}
+
+.date-icon {
+    width: 20px; /* Adjust the width as needed */
+    height: 20px; /* Adjust the height as needed */
+    margin-right: 8px; /* Space between the icon and text */
+}
+
